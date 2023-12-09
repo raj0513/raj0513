@@ -6,15 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wallet</title>
     <style>
-        body {
-
+        .mob {
             background-color: rgb(0, 0, 0);
-            position: relative;
-            width: 360px;
-            height: 640px;
+            text-align: center;
+            width: 375px;
+            height: 710px;
             margin-left: auto;
             margin-right: auto;
+            border-radius: 20px;
 
+        }
+
+        .battery {
+            margin: 3px;
+            padding: 5px;
+            text-align: end;
+            color: aliceblue;
+            width: 3cm;
+            margin-left: 240px;
+
+        }
+
+        li {
+            display: inline;
+            padding: 1mm
+        }
+
+        h5 {
+            position: absolute;
+            padding: 5px;
+            margin: 10px;
+            top: 0%;
         }
 
 
@@ -42,43 +64,34 @@
             background-color: rgb(31, 31, 31);
         }
 
-
-        .button {
-
-            border: none;
-            color: white;
-            padding: 30px 40px;
-            block-size: 150px;
-            inline-size: 155px;
-            text-align: center;
+        .new {
+            block-size: 160px;
+            inline-size: 160px;
+            padding: 5px ;
             display: inline-block;
             font-size: 16px;
-            margin: 4px 2px;
-            cursor: pointer;
+            margin: 3px 3px;
             border-radius: 30px;
-
+            color: white;
+    
         }
 
-        .button1 {
-
+        .n1 {
+            text-align: start;
             color: black;
             background-color: rgb(255, 95, 118);
+
         }
 
-
-        .button2 {
-
+        .n2,
+        .n3 {
+            text-align: start;
             background-color: rgb(31, 31, 31);
         }
 
-        .button3 {
-
+        .n4 {
             background-color: rgb(31, 31, 31);
-        }
-
-        .button4 {
-
-            background-color: rgb(31, 31, 31);
+            text-align: center;
         }
 
         span1 {
@@ -98,34 +111,130 @@
             font-size: 13px;
         }
 
-        .class {
-            color: pink;
-        }
+
 
         .good {
-
+            text-align: start;
+            padding: 10px;
             font-size: 14px;
             color: aliceblue;
         }
 
         span {
-
             font-size: 20px;
             color: aliceblue;
         }
+
+
+       
+        .transaction {
+            width: 375px;
+            height: 185px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            font-size: 16px;
+            border-radius: 30px;
+            color: black;
+            background-color: #D6DFEA;
+
+        }
+
+        .b22 {
+            background-color: #D6DFEA;
+            cursor: pointer;
+            border: none;
+
+        }
+
+        .barr {
+
+            width: 350px;
+            height: 65px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            font-size: 16px;
+            border-radius: 30px;
+            background-color: rgba(146, 164, 168, 0.959);
+            text-align: center;
+            position: sticky;
+        }
+
+        .button {
+            border-radius: 50px;
+            block-size: 55px;
+            inline-size: 55px;
+            padding: 9px;
+            margin: 4px;
+            border: none;
+            text-align: center;
+            display: inline-block;
+            font-size: 16px;
+            margin: 5px 5px;
+            cursor: pointer;
+            background-color: #292D32;
+        }
+
+        .button2 {
+            border: none;
+            background-color: transparent;
+            block-size: 60px;
+            inline-size: 60px;
+            text-align: center;
+            cursor: pointer;
+
+        }
+
+        .a4 {
+            border: none;
+            background-color: transparent;
+            inline-size: 85px;
+            text-align: center;
+            cursor: pointer;
+
+        }
+
+
+        .a5 {
+
+            border: none;
+            background-color: transparent;
+            inline-size: 160px;
+            text-align: end;
+            margin: 4px 2px;
+            cursor: pointer;
+            display: flex;
+            justify-content: end;
+            height: 1px;
+
+        }
+
+        
     </style>
 </head>
 
 <body>
 
-    <div>
+    <div class="mob">
 
+        <nav class="battery">
+
+
+            <li><img src="https://i.ibb.co/0sydbqH/signal-status.png" alt="network" width="20%"></li>
+            <li><img src="https://i.ibb.co/JHLkcnQ/wi-fi.png" alt="wi-fi" width="20%"></li>
+            <li><img src="https://i.ibb.co/rZ7qFbr/battery.png" alt="battery" width="20%"></li>
+
+        </nav> <span>
+            <h5>12:00</h5>
+        </span>
+        <br>
         <naw>
             <button class=" nav1"><img
                     src="https://i.ibb.co/f2tXYTZ/Letter-r-logo-with-golden-concept-for-consulting-premium-vector-PNG.png"
                     style="width:100%"></button>
 
-            <button class=" nav2 "><img src="https://i.ibb.co/v3RgT6h/Daco-5416278.png" style="width:90%"></button>
+            <button class=" nav2 "><img src="https://i.ibb.co/v3RgT6h/Daco-5416278.png" style="width:100%"></button>
 
             <button class=" nav2 "><img src="https://i.ibb.co/S3Q5XRp/n.png" style="width: 80%"></button>
 
@@ -141,22 +250,74 @@
             <span>Raj Sahu</span>
         </p>
 
+        <div class="new n1">
+            <button class="a5"><img src="https://i.ibb.co/YDY6d1G/arrow-2.png" alt="arrow-1" width="40%"></button>
 
-        <div class="B">
-            <button class="button button1">$100,320<br>
-                <span1>+12.05%</span1><br><br>Balance
-            </button>
-            <button class="button button2">$20,005<br>
-                <span2>-2.35%</span2><br><br>Income
-            </button>
             <br>
-            <button class="button button3">$12,040<br>
-                <span3>+4.50%</span3><br><br>Expense
-            </button>
-            <button class="button button4"><br><br>Add widget</button>
+            <span11>₹100,320</span11>
+            <br>
+            <span1>+12.05%<span1>
+                    <br><br><br>
+                    <span>Balance</span>
+        </div>
+        <div class="new n2">
+
+
+            <button class="a5"><img src="https://i.ibb.co/xsngy1K/arrow-1.png" alt="arrow-1" width="40%"></button>
+            <br>
+            <span11>₹20,005</span11>
+            <br>
+            <span2>-2.35%<span2>
+                    <br><br><br>
+                    <span>Income</span>
         </div>
 
+        <div class="new n3">
 
+            <button class="a5"><img src="https://i.ibb.co/xsngy1K/arrow-1.png" alt="arrow-1" width="40%"></button>
+            <br>
+            <span11>₹12,040</span11>
+            <br>
+            <span3>+4.50%<span3>
+                    <br><br><br>
+                    <span>Expense </span>
+        </div>
+
+        <div class="new n4">
+            <br>
+
+            <button class="a4"><img src="https://i.ibb.co/mFCFQfm/add.png" alt="+" width="80%"></button>
+            <br>
+            <br>
+            <span>Add widget</span>
+
+        </div>
+        <div class="transaction">
+
+            <pre><h3 style="padding: 15px;"> Transaction               <button class="b22">See all</button></h3></pre>
+            <img src="https://i.ibb.co/GpkdTt0/paypal.png" alt="paypal"  width="25px" style="position: absolute; margin: 8px; ">
+        
+           <h4 style=" color: black; padding-left: 40px;"> Received from Sahu <br>
+                <span style="color: #484a4b; font-size: small;">Today, 09:05am</span><span style=" color: black;position: absolute; padding-left: 162px;"><sup>+2300</sup></span>
+           </h4>
+
+          
+
+        </div>
+
+    </div>
+    <div class="barr">
+
+        <button class="button2">
+            <img src="https://i.ibb.co/Mc1wrSc/dashboard.png" alt="dashboard" width="80%">
+        </button>
+        <h style="color: #FF5F76;  font-size: 25px ; padding-right:15px;"><sup>Dashboard</sup></h>
+        <button class="button">
+            <img src="https://i.ibb.co/njjFjDD/wallet.png" alt="wallet" width="100%">
+        </button>
+        <button class="button">
+            <img src="https://i.ibb.co/6b87Tzv/growth.png" alt="growth" width="100%">
+        </button>
     </div>
 </body>
 </body>
