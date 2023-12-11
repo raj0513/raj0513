@@ -1,4 +1,5 @@
-.screen {
+.screen { 
+
     background-color: #000000;
     width: 360px;
     height: 665px;
@@ -7,13 +8,17 @@
     border-radius: 30px;
     padding: 15px;
     font-family: Calibri;
+
 }
 
-header{ 
-     overflow: hidden;
+header {
+
+    overflow: hidden;
+
 }
 
 .nav-button {
+
     background-color: #1F1F1F;
     cursor: pointer;
     display: inline;
@@ -27,41 +32,48 @@ header{
 
 
 .r-logo {
+
     float: left;
 
 }
 
 .search {
+
     float: right;
-    
+
 }
 
 .notification {
+
     float: right;
 
 }
 
 .avtar {
+
     float: right;
     background-color: #FFFFFF;
 
 }
 
-.good{
+.good {
+
     padding-top: 40px;
 
 }
 
 .greeting {
+
     color: #ffffff;
     text-align: start;
-    padding:5px;
+    padding: 5px;
     margin: 5px;
     font-size: 15px;
 
 }
 
 .name {
+
     color: #ffffff;
     text-align: start;
     padding: 5px;
@@ -70,12 +82,14 @@ header{
 
 }
 
-.boxes{
+.boxes {
+
     padding-top: 30px;
-    
+
 }
 
 .box {
+
     block-size: 110px;
     inline-size: 150px;
     padding: 12px;
@@ -86,95 +100,113 @@ header{
 
 }
 
-.box1 {
+.box1{ 
 
     background-color: #FF5F76;
     color: #000000;
-    
+
 }
 
-.box2{
+.box2 {
+
     background-color: #1F1F1F;
     color: #ffffff;
-    
+
 }
 
-.box3{
+.box3 {
+
     background-color: #1F1F1F;
     color: #ffffff;
     text-align: start;
-    
 
 }
 
 .box4 {
+
     background-color: #1F1F1F;
     color: #ffffff;
     text-align: center;
+
 }
 
-.arrow{
+.arrow {
+
     cursor: pointer;
     float: right;
     border: none;
     background-color: transparent;
     height: 55px;
     width: 55px;
-    
+
 }
 
-.plus{
+.plus {
+
     cursor: pointer;
     float: center;
     border: none;
     background-color: transparent;
     padding-top: 10px;
+
 }
-.Balance-1{
 
-    padding-top:7px;
-    
-    }
+.Balance-1 {
 
-    .Income-1{
-        padding-top:7px;
-    
-    }
-    .Expense-1{
-    
-            padding-top:7px;
-    }
-    
+    padding-top: 7px;
 
+}
 
-.Income-2{
+.Income-1 {
+
+    padding-top: 7px;
+
+}
+
+.Expense-1 {
+
+    padding-top: 7px;
+
+}
+
+.Income-2 {
+
     color: #DB4E4E;
+
 }
 
-.Expense-2{
+.Expense-2 {
+
     color: #54D36C;
-}
-
-.Balance-3{
-
-padding-top:35px;
 
 }
 
-.Income-3{
-    padding-top:35px;
+.Balance-3 {
+
+    padding-top: 35px;
 
 }
-.Expense-3{
 
-        padding-top:35px;
+.Income-3 {
+
+    padding-top: 35px;
+
 }
 
-.widget{
+.Expense-3 {
+
+    padding-top: 35px;
+
+}
+
+.widget {
+
     padding-top: 5px;
+
 }
 
 .transaction {
+
     width: 360px;
     height: 190px;
     margin-left: auto;
@@ -187,23 +219,25 @@ padding-top:35px;
 
 }
 
-.see{
+.see {
 
     float: inline-end;
     padding-right: 70px;
     margin: 19px;
+
 }
 
-.see-all{
+.see-all {
+
     background-color: #D6DFEA;
     cursor: pointer;
     border: none;
     position: absolute;
-    
-    
+
 }
 
-.paypal{
+.paypal {
+
     float: left;
     padding-left: 9px;
     height: 55px;
@@ -212,21 +246,24 @@ padding-top:35px;
 
 }
 
+.history {
 
-.history{
     color: black;
     padding-left: 60px;
     margin: 5px;
+
 }
 
-.htime{
+.htime {
+
     color: #484a4b;
     font-size: small;
     margin: 1px;
+
 }
 
-
 .dashboard {
+
     width: 320px;
     height: 58px;
     margin-left: auto;
@@ -238,43 +275,48 @@ padding-top:35px;
     padding: 5px;
     position: sticky;
     opacity: 0.9;
+
 }
 
-.dash-text{
+.dash-text {
+
     color: #FF5F76;
     margin: 2px;
     padding: 1px;
     font-size: 20px;
-    
+
 }
 
-.dash , .wallet , .growth{
+.dash,
+.wallet,
+.growth {
+
     height: 35px;
     width: 35px;
 
 }
 
+.dashb {
 
-.dashb{
     border: none;
     cursor: pointer;
     height: 40px;
-    width:40px;
+    width: 40px;
     float: left;
     margin: 2px;
 
 }
 
-.growthb , .walletb{
+.growthb,
+.walletb {
+
     border: none;
     cursor: pointer;
     height: 55px;
-    width:55px;
+    width: 55px;
     float: inline-end;
     background-color: #1F1F1F;
     border-radius: 50%;
     margin: 2px;
-
+    
 }
-
-   
