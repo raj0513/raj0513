@@ -261,6 +261,11 @@ header {
     margin: 1px;
 
 }
+.payment{
+    float: inline-end;
+    padding-right: 30px;
+    margin: 10px;
+}
 
 .dashboard {
 
@@ -320,3 +325,4 @@ header {
     margin: 2px;
     
 }
+
