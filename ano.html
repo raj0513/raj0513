@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        body{
+        body {
             text-align: center;
         }
     </style>
@@ -17,7 +17,7 @@
     <p>Create an array of numbers. Use the map function to double each number in the array. Store the result in a new
         array and log the new array to the console.</p>
 
-        <hr>
+    <hr>
 
     <p id="ano"></p>
     <hr>
@@ -29,15 +29,12 @@
 
         document.getElementById("ano").innerHTML = numbers1;
 
-        const numbers2 = numbers1.map(Function);
+        let numbers2 = numbers1.map(function (numbers1) {
+            return numbers1 * 2;
+        });
 
         document.getElementById("ano2").innerHTML = numbers2;
-
-        function Function(numbers1) {
-            return numbers1 * 2;
-        }
-
-        console.log( numbers2);
+        console.log(numbers2);
 
     </script>
 </body>

@@ -14,14 +14,14 @@
     <p>Given a string "Hello, World!", use JavaScript to extract the word "World" from the string and store it in a variable. Then, log the variable to the console.</p>
     <hr>
 
-
-    <p id="extract"></p>
     
     <script>
 
         let str = "Hello World!"
-        document.getElementById("extract").innerHTML = str.substr(6);
-        console.log(str);
+
+        let result = str.substring( 6, 11)
+
+        console.log(result);
 
     </script>
   

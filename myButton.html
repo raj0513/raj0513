@@ -1,33 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Button</title>
 
-<style>
-    body{
-        text-align: center;
-        
+    <style>
+        body {
+            text-align: center;
 
-     }
-</style>
+
+        }
+    </style>
 </head>
+
 <body>
 
-    <p>Create an HTML button with the id "myButton." Using JavaScript, add an event listener to the button so that when it's clicked, a function called buttonClicked is executed. Inside buttonClicked, display an alert saying</p>
-    
+    <p>Create an HTML button with the id "myButton". Using JavaScript, add an event listener to the button so that when
+        it's clicked, a function called buttonClicked is executed. Inside buttonClicked, display an alert saying</p>
+
     <p>"Button clicked!"</p>
-    
-    <button onclick="myButton()"> Click </button>
+
+    <button id="myButton"> Click </button>
 
     <script>
+        //use event listener in js 
 
-        function myButton() {
-          alert('"Button clicked!"');
-          }
+        document.getElementById("myButton").addEventListener("click", myFunction);
+
+        function myFunction() {
+            alert('"Button clicked!"');
+        }
 
     </script>
 
 </body>
+
 </html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+
+    <p>Create an array named fruits with three fruit names. Add a new fruit to the array, and then remove the second
+        fruit. Finally, print the updated array.</p>
+
+    <hr>
+    <p id="fruit-name"></p>
+    <script>
+        const fruits = ["Apple", "Mango", "Banana"];
+        // fruits[0] = "Apple";
+        // fruits[1] = "Mango";
+        // fruits[2] = "Banana";
+
+        //const addnew = fruits.concat("Orange"); 
+
+        fruits[1] = "Orange";
+        document.getElementById("fruit-name").innerHTML = fruits;
+
+
+        console.log(fruits)
+
+    </script>
+
+</body>
+
+</html>
