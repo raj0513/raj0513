@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+
+<body>
+
+    <h1><i>JavaScript</i> this word</h1>
+
+    <hr>
+    <p id="demo"></p>
+    <hr>
+
+    <button id="remove">Click to Remove Me!</button>
+
+    <script>
+        "use strict";
+        let x = ['"hello"'];
+        document.getElementById("demo").innerHTML = x;
+
+        document.getElementById("remove").addEventListener("click", myFunction);
+
+        function myFunction() {
+            this.style.display='none'
+        }
+
+        console.log(remove);
+
+
+    </script>
+
+</body>
+
+</html>
